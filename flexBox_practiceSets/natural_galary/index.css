@@ -10,18 +10,18 @@ body {
 }
 
 .bg-container {
-    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/nature-gallery-bg.png");
+    background-image: url("https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800");
     height: 100vh;
-    background-size: cover;
     padding: 5vh;
     font-family: "Roboto";
     color: white;
-
+    width:100%;
+    text-align: left;
 }
 
 .heading {
     color: #323f4b;
-    text-align: center;
+    text-align: left;
 }
 
 .container {
