@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+.bg-container{
+   background-color: black;
+  height:90vh;
+   background-size: cover;
+   font-family: "Roboto";
+   color:white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  
+}
+.navbar{
+    background: linear-gradient(to right,#000000,#9aa5b1) ;
+    background-size: cover;
+    display:flex;
+    overflow: hidden;
+    justify-content:space-between;
+    color:white;
+}
+.logo{
+    height:25px;
+    width:50px;
+    margin:20px;
+   
+}
+.ham-menu{
+    display: flex;
+    
+    padding:2vh;
+    
+}
+p{
+   
+   font-size: 17px;
+   margin:7px;
+}
+.phone-img{
+    height:50px;
+    width:400px;
+    border-radius: 10px;
+    align-self: center;
+   
+}
+.store-info{
+    color:#9aa5b1;
+    font-size:20px;
+    margin:7px;
+    align-self: flex-end;
+}
+
