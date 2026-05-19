@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: url("https://121clicks.com/wp-content/uploads/2024/09/best-top-travel-landscape-photography-01.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    color:white;
+    
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+}
+
+.heading {
+    font-size: 49px;
+    font-weight: bold;
+      color: #183b56;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-1 {
+    color: #183b56;
+    background-color: white;
+    margin: 20px;
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: solid 2px transparent;
+}
+
+.btn-2 {
+
+    background-color: transparent;
+    margin: 20px;
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px solid #183b56;
+    color: #183b56;
+}
+
+@media (min-width:768px) {
+    .bg-container {
+        background-image: url("https://images.stockcake.com/public/c/8/9/c898d266-3291-4cb5-af28-78c89ce2297d_large/sunset-road-trip-stockcake.jpg");
+        height: 100vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto";
+        color: white;
+    }
+
+    .buttons-container {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 60%;
+
+    }
+
+    .heading {
+        font-size: 50pxpx;
+        font-weight: bold;
+         color:white;
+    }
+
+    .btn-2 {
+
+    background-color: transparent;
+    margin: 20px;
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px solid #dfe4e7;
+    color: #e2e2e2;
+}
+}
