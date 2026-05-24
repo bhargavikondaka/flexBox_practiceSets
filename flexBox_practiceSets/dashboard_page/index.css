@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    height: 100vh;
+}
+
+.side-bar {
+    align-self: stretch;
+    background-color: #002159;
+    width: 150px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Open Sans";
+}
+
+.Dashboard-heading {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.menu {
+    align-items: center;
+    margin: 10px;
+    flex-grow: 1;
+    font-size: 13px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:15px; */
+}
+
+.profile-img {
+    height: 25px;
+    width: 25px;
+
+    border-radius: 50px;
+}
+
+.fav-section {
+    color: #002159;
+    font-family: "Open Sans";
+    margin: 15px;
+    flex-grow: 1;
+    height: 90vh;
+    overflow-y: auto;
+}
+
+.fav-heading {
+    text-align: start;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.each-sec {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.fav-images {
+    height: 90px;
+    width: 90px;
+    margin: 7px;
+}
+@media (min-width: 500px) {
+   fav-images {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+   }
+}
